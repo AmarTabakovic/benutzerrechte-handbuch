@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway|Muli|Noto+Sans+JP&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+width: 100%;
+height: 100%;
+margin: 0;
+padding-top: 150px;
+/*padding: 0;*/
+}
+
+p, h2, h3 {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: black;
+}
+
+.header ul li {
+    list-style:none;
+    display: inline-block;
+    padding-right:30px;
+    text-align:right;
+}
+
+.header p a{
+    color: white;
+    text-decoration:none;
+}
+
+.header p a:hover{
+    color: rgb(180, 178, 190);
+}
+
+.header {
+padding-top:10px;
+padding-bottom:10px;
+background-color:rgb(21, 52, 154);
+position: fixed;
+top: 0;
+width: 100%;
+
+}
+
+.header h1 {
+    font-family: 'Muli', sans-serif;
+    color: white;
+}
+
+.header p {
+    color: white;
+}
+
+.line {
+    border-left:1px solid #000;
+    height:500px;
+}
+
+.content {
+   padding-left:65px;
+    padding-right:65px;
+    padding-top:10px;
+    padding-bottom:100px;
+    min-height:450px;
+    width: 70%;
+    float: right;
+    
+   
+}
+
+.content p a {
+  text-decoration: none;
+
+}
+
+.content ol li {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: red;
+}
+
+img {
+    border:1px solid black;
+}
+
+.table_of_contents {
+
+    position:fixed;
+    padding-left: 40px;
+    padding-top: 20px;
+    float:left;
+}
+
+.table_of_contents li {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: black;
+  
+}
+
+.table_of_contents a {
+    text-decoration: none;
+}
+
+.table_of_contents a:hover li p {
+    color: navy;
+}
+
+.footer {
+    clear:both;   
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(17, 17, 22);
+    height: 50px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+.footer p a {
+    font-family: 'Raleway', sans-serif;
+    color: rgba(255, 255, 255, 0.875); 
+    text-decoration: none;
+}
+
+.name {
+    font-size: 9pt;
+    font-family: 'Raleway', sans-serif;
+    color: rgba(255, 255, 255, 0.59) ;
+}
+
+.anchor {
+    
+        padding-top: 150px;
+        margin-top: -150px;
+    
+}
+
